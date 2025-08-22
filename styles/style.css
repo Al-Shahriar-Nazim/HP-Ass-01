@@ -1,0 +1,109 @@
+/* font add */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* common css */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    ;
+}
+
+/* navbar section */
+
+.nav-section {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .list-icon {
+
+        display: flex;
+
+        /* width: 30%; */
+        & h3 {
+            padding-left: 20px;
+            font-size: 22px;
+            font-weight: 500;
+        }
+
+    }
+
+    .button {
+        display: flex;
+        /* width: 30%; */
+        row-gap: 10px;
+        align-items: center;
+        justify-content: center;
+
+        .login {
+
+            font-size: 18px;
+            width: 500;
+            padding: 20px;
+            cursor: pointer;
+            border-radius: 20px;
+            border: none;
+            margin-right: 20px;
+        }
+
+        .started {
+
+            font-size: 18px;
+            width: 500;
+            padding: 20px;
+            cursor: pointer;
+            border-radius: 20px;
+            border: none;
+            margin-right: 20px;
+            background-color: #000000;
+            color: white;
+        }
+
+        & img {
+            width: 36px;
+            height: 36px;
+        }
+    }
+}
+
+/* banner section */
+.banner-section {
+
+
+    .img {
+        position: relative;
+        z-index: -1;
+        object-fit: cover;
+    }
+
+    .content {
+        /* position: absolute; */
+        margin-top: -500px;
+        padding: 40px;
+        width: 1060px;
+        height: 350px;
+
+        background-color: #FFFFFF;
+
+        & h2 {
+            font-size: 43px;
+            font-weight: 500;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .select {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+           .data{
+            margin-top: 300px;
+           }
+        }
+    }
+}
