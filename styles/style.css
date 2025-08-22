@@ -165,3 +165,24 @@
         margin-top: 80px;
     }
 }
+
+/* buy and sell section */
+.buy {
+    background-color: #FDE24F;
+    width: 100%;
+    padding: 40px;
+    height: 320px;
+    margin-top: 75px;
+
+    & h3 {
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    & img {
+
+        width: 100%;
+        margin: 20px auto;
+    }
+}
