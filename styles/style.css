@@ -151,4 +151,17 @@
             }
         }
     }
+
+    .zapper {
+        color: white;
+        border: 1px solid rgb(255, 255, 255);
+        width: 140px;
+        padding: 10px;
+        text-decoration: underline;
+        text-align: center;
+        border-radius: 30px;
+
+        margin: auto;
+        margin-top: 80px;
+    }
 }
