@@ -417,22 +417,24 @@
 
         .img {
 
-            width: 100%
+            /* width: 50%; */
+            display: none;
         }
 
         .content {
 
             margin: auto;
-            margin-top: -700px;
+            /* margin-top: -700px; */
             padding: 40px;
             width: 90%;
             height: 400px;
             border-radius: 10px;
-            background-color: #FFFFFF;
+            background-color: #3d077a;
 
             & h2 {
                 font-size: 30px;
                 font-weight: 400;
+                color: white;
 
             }
 
